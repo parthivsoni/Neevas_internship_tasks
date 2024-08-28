@@ -1,0 +1,192 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(254, 85, 0);
+}
+
+.nav h1{
+    color: white;
+} 
+
+
+h1{
+    font-size: 35px;
+    color: rgb(1, 118, 197);
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding: 10px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    align-items: center;
+    height: 600px;
+    background: #ffffff;
+}
+
+img {
+    height: 350px;
+    width: 300px;
+    padding: 2px;
+    border: 2px solid rgb(1, 118, 197);
+    border-radius: 50px;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    transition: all(0.5s);
+    color: rgb(1, 118, 197);
+    cursor: pointer;
+}
+
+.hero-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.span {
+    color: rgb(254, 85, 0);
+    font-size: 22px;
+}
+
+span {
+    color: rgb(1, 118, 197);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p {
+    width: 600px;
+    font-size: 24px;
+}
+
+.new-section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    align-items: center;
+    background: #e2e2e2;
+    height: 700px;
+}
+
+.achivements{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    background: #e2e2e2;
+    height: 700px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    margin-top: 20px;
+    padding: 10px;
+    gap: 30px;
+    height: 900px;
+}
+
+.images {
+    height: 400px;
+    width: 350px;
+    /* margin: 10px; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    opacity: 0.8;
+}
+
+.csk{
+    width: 400px;
+    height: 450px;
+}
+
+.csk-span{
+    font-size: 24px;
+    color: rgb(241, 143, 5);
+}
+
+.main {
+    display: flex;
+}
+
+.images:hover {
+    transition: all;
+    opacity: 1;
+}
+
+.footer{
+    height: 200px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    color: brown;
+    font-size: 24px;
+}
+
+.footer h1{
+    color: black;
+}
+
+.achievements-ul{
+    display: flex;
+    font-size: 10px;
+    gap: 2px;
+}
+
+.li-ol{
+    margin: 7px;
+    font-size: 16px;
+    list-style-type: decimal;
+}
+
+.li-span{
+    font-size: 22px;
+    color: rgb(241, 143, 5);
+}
+
+
+
